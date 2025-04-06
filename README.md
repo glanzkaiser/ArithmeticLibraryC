@@ -16,7 +16,7 @@ Assuming you are using Linux OS (we are using GFreya OS 1.8 based on Linux From 
 
 ## How to Create the Shared Library
 
-Type in the working directory that contain all the header and cpp files to be made into shared library: (arithmetic.h and arithmetic.cpp):
+Type in the working directory that contain all the header and cpp files (arithmetic.h and arithmetic.cpp) to be made into shared library:
 ```
 g++ -fPIC -c arithmetic.cpp
 g++ -shared -o libarithmetic.so arithmetic.o
@@ -25,7 +25,7 @@ After you create *.so shared library then move it to /usr/lib.
 
 ## How to Use the Shared Library
 
-Type in the working directory that contain all the cpp files to be made into shared library: (main.cpp):
+Type in the working directory that contain all the cpp files (main.cpp) to be made into the binary / executable file :
 ```
 g++ main.cpp -larithmetic -o out
 ./out
