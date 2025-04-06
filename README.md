@@ -33,4 +33,7 @@ g++ main.cpp -larithmetic -o out
 
 You can also make a makefile so you can build the binary fast, and remove the binary and object files easier after usage.
 
+<img src="https://github.com/glanzkaiser/ArithmeticLibraryC/blob/main/1.png" width="83%">
+<img src="https://github.com/glanzkaiser/ArithmeticLibraryC/blob/main/2.png" width="83%">
+
 Thanks to Sentinel and Freya.
